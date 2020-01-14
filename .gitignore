@@ -1,3 +1,6 @@
+sequences/extracted_data.npy
+sequences/extracted_label.npy
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
