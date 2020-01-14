@@ -4,8 +4,8 @@ from tqdm import tqdm
 
 
 def load_data():
-    extract_file_d = './sequences/extracted_data.npy'
-    extract_file_l = './sequences/extracted_label.npy'
+    extract_file_d = './extracted_data.npy'
+    extract_file_l = './extracted_label.npy'
     if not os.path.isfile(extract_file_d) or not os.path.isfile(extract_file_l):
         data = []
         label = []
