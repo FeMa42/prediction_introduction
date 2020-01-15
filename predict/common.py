@@ -30,7 +30,7 @@ def load_data():
         np.save(extract_file_d, data)
         np.save(extract_file_l, label)
     else:
-        data = np.load(extract_file_d)
-        label = np.load(extract_file_l)
+        data = np.load(extract_file_d, allow_pickle=True)
+        label = np.load(extract_file_l, allow_pickle=True)
 
     return data, label
